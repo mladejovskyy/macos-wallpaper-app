@@ -15,14 +15,20 @@ class WallpaperManager {
         let nightStart = 20
         let nightEnd = 7
 
+        let dayPath = UserDefaults.standard.string(forKey: "dayWallpaperPath") ?? ""
+        let nightPath = UserDefaults.standard.string(forKey: "nightWallpaperPath") ?? ""
+
         let wallpaperPath: String
 
         if now >= nightStart || now < nightEnd {
-            // Night time wallpaper
-            wallpaperPath = "/Users/tomasmladejovsky/Wallpapers/wallpaper2.jpg"
+            wallpaperPath = nightPath
         } else {
-            // Day time wallpaper
-            wallpaperPath = "/Users/tomasmladejovsky/Wallpapers/wallpaper1.jpg"
+            wallpaperPath = dayPath
+        }
+
+        guard !wallpaperPath.isEmpty else {
+            print("No wallpaper path set.")
+            return
         }
 
         let fileURL = URL(fileURLWithPath: wallpaperPath)
