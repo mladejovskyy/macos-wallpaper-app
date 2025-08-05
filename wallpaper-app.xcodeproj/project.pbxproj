@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8E22A0E42E4189D0007B84FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E22A0CD2E4189CF007B84FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E22A0D42E4189CF007B84FB;
+			remoteInfo = "wallpaper-app";
+		};
+		8E22A0EE2E4189D0007B84FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E22A0CD2E4189CF007B84FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E22A0D42E4189CF007B84FB;
+			remoteInfo = "wallpaper-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E22A0D52E4189CF007B84FB /* wallpaper-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wallpaper-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E22A0E32E4189D0007B84FB /* wallpaper-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wallpaper-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E22A0ED2E4189D0007B84FB /* wallpaper-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wallpaper-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8E22A0D72E4189CF007B84FB /* wallpaper-app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "wallpaper-app";
+			sourceTree = "<group>";
+		};
+		8E22A0E62E4189D0007B84FB /* wallpaper-appTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "wallpaper-appTests";
+			sourceTree = "<group>";
+		};
+		8E22A0F02E4189D0007B84FB /* wallpaper-appUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "wallpaper-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E22A0D22E4189CF007B84FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E22A0E02E4189D0007B84FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E22A0EA2E4189D0007B84FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E22A0CC2E4189CF007B84FB = {
+			isa = PBXGroup;
+			children = (
+				8E22A0D72E4189CF007B84FB /* wallpaper-app */,
+				8E22A0E62E4189D0007B84FB /* wallpaper-appTests */,
+				8E22A0F02E4189D0007B84FB /* wallpaper-appUITests */,
+				8E22A0D62E4189CF007B84FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E22A0D62E4189CF007B84FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E22A0D52E4189CF007B84FB /* wallpaper-app.app */,
+				8E22A0E32E4189D0007B84FB /* wallpaper-appTests.xctest */,
+				8E22A0ED2E4189D0007B84FB /* wallpaper-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E22A0D42E4189CF007B84FB /* wallpaper-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E22A0F72E4189D0007B84FB /* Build configuration list for PBXNativeTarget "wallpaper-app" */;
+			buildPhases = (
+				8E22A0D12E4189CF007B84FB /* Sources */,
+				8E22A0D22E4189CF007B84FB /* Frameworks */,
+				8E22A0D32E4189CF007B84FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8E22A0D72E4189CF007B84FB /* wallpaper-app */,
+			);
+			name = "wallpaper-app";
+			packageProductDependencies = (
+			);
+			productName = "wallpaper-app";
+			productReference = 8E22A0D52E4189CF007B84FB /* wallpaper-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E22A0E22E4189D0007B84FB /* wallpaper-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E22A0FA2E4189D0007B84FB /* Build configuration list for PBXNativeTarget "wallpaper-appTests" */;
+			buildPhases = (
+				8E22A0DF2E4189D0007B84FB /* Sources */,
+				8E22A0E02E4189D0007B84FB /* Frameworks */,
+				8E22A0E12E4189D0007B84FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E22A0E52E4189D0007B84FB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8E22A0E62E4189D0007B84FB /* wallpaper-appTests */,
+			);
+			name = "wallpaper-appTests";
+			packageProductDependencies = (
+			);
+			productName = "wallpaper-appTests";
+			productReference = 8E22A0E32E4189D0007B84FB /* wallpaper-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E22A0EC2E4189D0007B84FB /* wallpaper-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E22A0FD2E4189D0007B84FB /* Build configuration list for PBXNativeTarget "wallpaper-appUITests" */;
+			buildPhases = (
+				8E22A0E92E4189D0007B84FB /* Sources */,
+				8E22A0EA2E4189D0007B84FB /* Frameworks */,
+				8E22A0EB2E4189D0007B84FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E22A0EF2E4189D0007B84FB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8E22A0F02E4189D0007B84FB /* wallpaper-appUITests */,
+			);
+			name = "wallpaper-appUITests";
+			packageProductDependencies = (
+			);
+			productName = "wallpaper-appUITests";
+			productReference = 8E22A0ED2E4189D0007B84FB /* wallpaper-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E22A0CD2E4189CF007B84FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					8E22A0D42E4189CF007B84FB = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					8E22A0E22E4189D0007B84FB = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8E22A0D42E4189CF007B84FB;
+					};
+					8E22A0EC2E4189D0007B84FB = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8E22A0D42E4189CF007B84FB;
+					};
+				};
+			};
+			buildConfigurationList = 8E22A0D02E4189CF007B84FB /* Build configuration list for PBXProject "wallpaper-app" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E22A0CC2E4189CF007B84FB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8E22A0D62E4189CF007B84FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E22A0D42E4189CF007B84FB /* wallpaper-app */,
+				8E22A0E22E4189D0007B84FB /* wallpaper-appTests */,
+				8E22A0EC2E4189D0007B84FB /* wallpaper-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E22A0D32E4189CF007B84FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E22A0E12E4189D0007B84FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E22A0EB2E4189D0007B84FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E22A0D12E4189CF007B84FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E22A0DF2E4189D0007B84FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E22A0E92E4189D0007B84FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E22A0E52E4189D0007B84FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E22A0D42E4189CF007B84FB /* wallpaper-app */;
+			targetProxy = 8E22A0E42E4189D0007B84FB /* PBXContainerItemProxy */;
+		};
+		8E22A0EF2E4189D0007B84FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E22A0D42E4189CF007B84FB /* wallpaper-app */;
+			targetProxy = 8E22A0EE2E4189D0007B84FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E22A0F52E4189D0007B84FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E22A0F62E4189D0007B84FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8E22A0F82E4189D0007B84FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "wallpaper-app/wallpaper_app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mladejovsky.wallpaper-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8E22A0F92E4189D0007B84FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "wallpaper-app/wallpaper_app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mladejovsky.wallpaper-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8E22A0FB2E4189D0007B84FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mladejovsky.wallpaper-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wallpaper-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wallpaper-app";
+			};
+			name = Debug;
+		};
+		8E22A0FC2E4189D0007B84FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mladejovsky.wallpaper-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wallpaper-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wallpaper-app";
+			};
+			name = Release;
+		};
+		8E22A0FE2E4189D0007B84FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mladejovsky.wallpaper-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "wallpaper-app";
+			};
+			name = Debug;
+		};
+		8E22A0FF2E4189D0007B84FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mladejovsky.wallpaper-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "wallpaper-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E22A0D02E4189CF007B84FB /* Build configuration list for PBXProject "wallpaper-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E22A0F52E4189D0007B84FB /* Debug */,
+				8E22A0F62E4189D0007B84FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E22A0F72E4189D0007B84FB /* Build configuration list for PBXNativeTarget "wallpaper-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E22A0F82E4189D0007B84FB /* Debug */,
+				8E22A0F92E4189D0007B84FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E22A0FA2E4189D0007B84FB /* Build configuration list for PBXNativeTarget "wallpaper-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E22A0FB2E4189D0007B84FB /* Debug */,
+				8E22A0FC2E4189D0007B84FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E22A0FD2E4189D0007B84FB /* Build configuration list for PBXNativeTarget "wallpaper-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E22A0FE2E4189D0007B84FB /* Debug */,
+				8E22A0FF2E4189D0007B84FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E22A0CD2E4189CF007B84FB /* Project object */;
+}
